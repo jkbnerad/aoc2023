@@ -16,7 +16,7 @@
   "require": {
     "php": "~8.2",
     "phpstan/phpstan": "^1.10",
-    "tracy/tracy": "v2.10.5",
+    "tracy/tracy": "2.*",
     "league/climate": "^3.8"
   },
   "autoload": {
