@@ -14,6 +14,6 @@ abstract class Task
         return $this->fileInput;
     }
 
-    abstract public function partA(): int;
-    abstract public function partB(): int;
+    abstract public function partOne(): int;
+    abstract public function partTwo(): int;
 }
