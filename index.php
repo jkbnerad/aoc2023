@@ -27,3 +27,9 @@ $climate->bold('Part A');
 $day02 = new \App\Day02\Solver(new FileInput($basePath . 'Day02/input.txt'));
 $climate->bold('Result One: ' . $day02->partOne());
 $climate->bold('Result Two: ' . $day02->partTwo());
+
+$climate->bold('Day 03');
+$climate->bold('Part A');
+$day03 = new \App\Day03\Solver(new FileInput($basePath . 'Day03/input.txt'));
+$climate->bold('Result One: ' . $day03->partOne());
+$climate->bold('Result One: ' . $day03->partTwo());
